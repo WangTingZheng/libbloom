@@ -82,10 +82,6 @@ int Bloom::reset(){
 	return 0;
 }
 
-const char* Bloom::version()
-{
-	return nullptr;
-}
 
 inline int Bloom::set_bit_set_bit(unsigned char* buf, unsigned int x, int set_bit)
 {

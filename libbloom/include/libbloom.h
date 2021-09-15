@@ -21,7 +21,6 @@ public:
 	void print();
 	void clear();
 	int reset();
-	const char* version();
 
 private:
 	double dpe;
